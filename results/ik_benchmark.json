@@ -1,0 +1,41 @@
+{
+ "DLS, single descent (no restarts)": {
+  "n": 1000,
+  "success_rate": 0.846,
+  "pos_err_mm_median": 0.009311469471589805,
+  "pos_err_mm_max": 0.09997911923808081,
+  "rot_err_deg_median": 3.513926069954155e-05,
+  "rot_err_deg_max": 0.022814326173531747,
+  "iters_median": 18.0,
+  "iters_p95": 134.19999999999982,
+  "time_ms_median": 3.2930924999163835,
+  "time_ms_p95": 24.16316380001715,
+  "attempts_mean_successful": 1.0
+ },
+ "DLS + up to 20 random restarts": {
+  "n": 1000,
+  "success_rate": 0.989,
+  "pos_err_mm_median": 0.010712964946463855,
+  "pos_err_mm_max": 0.09997911923808081,
+  "rot_err_deg_median": 3.1555087937207705e-05,
+  "rot_err_deg_max": 0.034358223226988345,
+  "iters_median": 18.0,
+  "iters_p95": 203.04999999999995,
+  "time_ms_median": 3.3417325000755227,
+  "time_ms_p95": 38.206741699673294,
+  "attempts_mean_successful": 1.4074823053589485
+ },
+ "ablation: clip joints instead of wrap, 20 restarts": {
+  "n": 1000,
+  "success_rate": 0.964,
+  "pos_err_mm_median": 0.012301703156497756,
+  "pos_err_mm_max": 0.09999500205102642,
+  "rot_err_deg_median": 6.56246765757772e-05,
+  "rot_err_deg_max": 0.05162197896171146,
+  "iters_median": 78.0,
+  "iters_p95": 627.05,
+  "time_ms_median": 14.043757499848653,
+  "time_ms_p95": 112.910752799894,
+  "attempts_mean_successful": 4.117219917012448
+ }
+}

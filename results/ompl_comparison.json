@@ -1,0 +1,24 @@
+{
+ "ours (RRT-Connect + shortcut)": {
+  "success": "50/50",
+  "plan_ms_median": 58.02590900020732,
+  "plan_ms_p95": 100.9494368000105,
+  "post_ms_median": 253.74379599998065,
+  "raw_len_median": 4.971695326554759,
+  "len_median": 2.3059898724399934,
+  "verts_median": 5.0,
+  "checks_median": 5922.5,
+  "dense_valid": "50/50"
+ },
+ "OMPL 2.x (RRTConnect + simplifySolution)": {
+  "success": "50/50",
+  "plan_ms_median": 47.31518900007359,
+  "plan_ms_p95": 92.37769789990577,
+  "post_ms_median": 356.34589099981895,
+  "raw_len_median": 4.526899493073341,
+  "len_median": 2.750779353122652,
+  "verts_median": 5.0,
+  "checks_median": 7693.5,
+  "dense_valid": "50/50"
+ }
+}

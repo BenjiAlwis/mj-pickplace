@@ -1,0 +1,5 @@
+third_party/
+results/
+media/
+.git/
+**/__pycache__

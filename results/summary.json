@@ -1,0 +1,131 @@
+{
+ "nominal": {
+  "n": 200,
+  "success_rate": 1.0,
+  "success_ci95": [
+   0.9811539940816791,
+   1.0
+  ],
+  "grasp_success_rate": 1.0,
+  "pipeline_completion_rate": 1.0,
+  "placement_error_mm_median": 0.24847374781941908,
+  "placement_error_mm_p95": 0.5397683963605803,
+  "placement_error_mm_max": 0.6899015762193995,
+  "yaw_error_deg_median": 0.2657459216509498,
+  "yaw_error_deg_p95": 0.3374759291179457,
+  "plan_time_s_median": 0.8152493804994947,
+  "plan_time_s_p95": 1.2146245483998312,
+  "joint_path_rad_median": 5.0953906176986745,
+  "tcp_path_m_median": 1.8831038377294211,
+  "cycle_time_s_median": 11.939000000000824,
+  "ik_failures_total": 0,
+  "episodes_with_ik_failure": 0,
+  "max_tracking_err_rad_median": 0.0023007775754483317,
+  "episodes_with_unplanned_contact": 0,
+  "failures": {}
+ },
+ "noisy": {
+  "n": 200,
+  "success_rate": 1.0,
+  "success_ci95": [
+   0.9811539940816791,
+   1.0
+  ],
+  "grasp_success_rate": 1.0,
+  "pipeline_completion_rate": 1.0,
+  "placement_error_mm_median": 0.31982628377290456,
+  "placement_error_mm_p95": 0.6651580319234851,
+  "placement_error_mm_max": 0.9932755652241928,
+  "yaw_error_deg_median": 0.4350940157252105,
+  "yaw_error_deg_p95": 1.071040401518547,
+  "plan_time_s_median": 0.7548039505001043,
+  "plan_time_s_p95": 1.160585141050387,
+  "joint_path_rad_median": 5.072226544632805,
+  "tcp_path_m_median": 1.8891821699311504,
+  "cycle_time_s_median": 11.909000000000812,
+  "ik_failures_total": 0,
+  "episodes_with_ik_failure": 0,
+  "max_tracking_err_rad_median": 0.002305109543767667,
+  "episodes_with_unplanned_contact": 0,
+  "failures": {}
+ },
+ "noisy_large": {
+  "n": 200,
+  "success_rate": 0.865,
+  "success_ci95": [
+   0.8107074954488287,
+   0.9055349202307972
+  ],
+  "grasp_success_rate": 0.87,
+  "pipeline_completion_rate": 0.865,
+  "placement_error_mm_median": 0.37691936990529973,
+  "placement_error_mm_p95": 0.8470824012063972,
+  "placement_error_mm_max": 1.1738497342895013,
+  "yaw_error_deg_median": 0.3321965925177181,
+  "yaw_error_deg_p95": 1.6138902886859479,
+  "plan_time_s_median": 0.7165338264999264,
+  "plan_time_s_p95": 1.1823149811002507,
+  "joint_path_rad_median": 5.07775437146731,
+  "tcp_path_m_median": 1.8801726906727643,
+  "cycle_time_s_median": 11.89800000000081,
+  "ik_failures_total": 0,
+  "episodes_with_ik_failure": 0,
+  "max_tracking_err_rad_median": 0.0023089431158168083,
+  "episodes_with_unplanned_contact": 0,
+  "failures": {
+   "FAIL_GRASP_no_pad_contact": 9,
+   "FAIL_LIFT_dropped": 17,
+   "FAIL_PLACE_collision": 1
+  }
+ },
+ "noisy_no_inhand": {
+  "n": 200,
+  "success_rate": 1.0,
+  "success_ci95": [
+   0.9811539940816791,
+   1.0
+  ],
+  "grasp_success_rate": 1.0,
+  "pipeline_completion_rate": 1.0,
+  "placement_error_mm_median": 3.533835415713348,
+  "placement_error_mm_p95": 11.09188170853516,
+  "placement_error_mm_max": 12.614291019244112,
+  "yaw_error_deg_median": 0.4893507322332666,
+  "yaw_error_deg_p95": 4.441230157725782,
+  "plan_time_s_median": 0.7946487340000203,
+  "plan_time_s_p95": 1.2278662751998577,
+  "joint_path_rad_median": 5.054762865459422,
+  "tcp_path_m_median": 1.8874790167079105,
+  "cycle_time_s_median": 11.919000000000818,
+  "ik_failures_total": 0,
+  "episodes_with_ik_failure": 0,
+  "max_tracking_err_rad_median": 0.0023036714724917196,
+  "episodes_with_unplanned_contact": 0,
+  "failures": {}
+ },
+ "no_feedforward": {
+  "n": 200,
+  "success_rate": 1.0,
+  "success_ci95": [
+   0.9811539940816791,
+   1.0
+  ],
+  "grasp_success_rate": 1.0,
+  "pipeline_completion_rate": 1.0,
+  "placement_error_mm_median": 0.37497473447824015,
+  "placement_error_mm_p95": 0.6765006607535438,
+  "placement_error_mm_max": 0.8227415387248248,
+  "yaw_error_deg_median": 0.3597058877878791,
+  "yaw_error_deg_p95": 0.4632840394302868,
+  "plan_time_s_median": 0.7819989615002214,
+  "plan_time_s_p95": 1.1636051133501946,
+  "joint_path_rad_median": 5.113770068329997,
+  "tcp_path_m_median": 1.8943367014939827,
+  "cycle_time_s_median": 12.013000000000847,
+  "ik_failures_total": 0,
+  "episodes_with_ik_failure": 0,
+  "max_tracking_err_rad_median": 0.2115621803268188,
+  "episodes_with_unplanned_contact": 0,
+  "failures": {}
+ }
+}

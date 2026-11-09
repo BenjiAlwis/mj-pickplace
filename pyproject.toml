@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pnp"
+version = "0.1.0"
+description = "From-scratch IK, RRT-Connect and a pick-and-place state machine for a UR5e + Robotiq 2F-85 in MuJoCo"
+requires-python = ">=3.10"
+dependencies = ["mujoco>=3.3", "numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+media = ["imageio>=2.34", "imageio-ffmpeg>=0.5"]
+ompl = ["ompl>=1.7"]
+
+[tool.setuptools.packages.find]
+include = ["pnp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "B905"]
